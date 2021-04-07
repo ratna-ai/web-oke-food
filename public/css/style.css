@@ -1,0 +1,97 @@
+h1 {
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    min-height: 70px;
+    background-color: #c94dfc;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1em;
+    font-family: 'Arvo', serif;
+    padding-left: 100px;
+    float: right;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+.main_heading h1
+{
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #ac10d3;
+}
+
+.features-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .20s linear;
+}
+
+.features-div:hover
+{
+	margin-top: -10px;
+}
+
+.more-features-div
+{
+    margin-top: 40px;
+	overflow: hidden;
+}
+
+.more-feature-div
+{
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;	
+    margin: 70px 0px;
+    margin-bottom: 0px;      
+    padding: 50px 0px;  
+}
+
+.more-feature-div .col-md-6 img
+{
+    width: 100%;
+}
+
+.more-features-div-description
+{
+	float: right;
+    width: 100%;
+    font-weight: 300;
+}
+
